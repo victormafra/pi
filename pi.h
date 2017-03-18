@@ -1,5 +1,5 @@
-#ifndef PI.H
-#define PI.H
+#ifndef PI
+#define PI
 
 #include <fstream>
 using namespace std;

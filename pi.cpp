@@ -8,7 +8,7 @@ int main(){
 	string pi = "14159265", fullInput = "";
 	char input;
 	
-	pi = copyPiFromFile("pi.txt");
+	copyPiFromFile(&pi,"pi.txt");
 	
 	/* Input */ 
 	cout << "Start typing, when you're tired press enter." << endl << "3.";

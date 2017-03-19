@@ -3,18 +3,17 @@
 
 #include <fstream>
 using namespace std;
-string copyPiFromFile(string fileName){
-	string pi, line;
+void copyPiFromFile(string *pi, string fileName){
+	string line;
 	ifstream myfile (fileName);
 	if (myfile.is_open()){
 		while ( getline (myfile,line) ){
-			pi = line;
+			*pi = line;
 		}
 		myfile.close();
 	} else {
 		cout << "Unable to open file"; 
 	}
-	return pi;
 }
 
 void piWithEightSpaces(string s, int size){

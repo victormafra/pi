@@ -29,7 +29,10 @@ int main(){
 	piWithEightSpaces(fullInput,i);
 	
 	/* Stats Screen */
-	cout << endl << "You typed " << i << " decimal places." << endl << wrong << " of them are wrong." << endl << i-wrong << " of them are right." << endl;
+	cout << endl;
+	cout << "You typed " << i << " decimal places." << endl;
+	cout << wrong << " of them are wrong." << endl;
+	cout << i-wrong << " of them are right." << endl;
 	cout << endl << "And I love you <3" << endl;
 	
 	return 0;
